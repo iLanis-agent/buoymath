@@ -1,0 +1,2000 @@
+[
+ {
+  "fn": "densityTruth",
+  "args": [
+   "0.01",
+   "0.01",
+   "1"
+  ],
+  "expected": "A 0.01 kg body in 0.01 L has a density of 1000 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "0.01",
+   "0.01",
+   "1"
+  ],
+  "expected": "A 0.01 kg body in 0.01 L, in a 1 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "0.01",
+   "0.01",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 0 kg against the 0.01 kg body. That is 0.01 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "0.01",
+   "0.01",
+   "1000"
+  ],
+  "expected": "A 0.01 kg body in 0.01 L has a density of 1000 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is exactly as dense as the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "0.01",
+   "0.01",
+   "1000"
+  ],
+  "expected": "A 0.01 kg body in 0.01 L, in a 1000 kg/m\u00b3 fluid: its density matches the fluid's, so it sits fully submerged, neither rising nor needing support."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "0.01",
+   "0.01",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 0.01 kg against the 0.01 kg body. That exactly matches its mass, so it sits awash with nothing to spare."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "0.01",
+   "0.01",
+   "5000"
+  ],
+  "expected": "A 0.01 kg body in 0.01 L has a density of 1000 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "0.01",
+   "0.01",
+   "5000"
+  ],
+  "expected": "A 0.01 kg body in 0.01 L, in a 5000 kg/m\u00b3 fluid: 20% of its volume sits under the surface and 80% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "0.01",
+   "0.01",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 0.05 kg against the 0.01 kg body. That leaves 0.04 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "0.01",
+   "20",
+   "1"
+  ],
+  "expected": "A 0.01 kg body in 20 L has a density of 1 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "0.01",
+   "20",
+   "1"
+  ],
+  "expected": "A 0.01 kg body in 20 L, in a 1 kg/m\u00b3 fluid: 50% of its volume sits under the surface and 50% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "0.01",
+   "20",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 0.02 kg against the 0.01 kg body. That leaves 0.01 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "0.01",
+   "20",
+   "1000"
+  ],
+  "expected": "A 0.01 kg body in 20 L has a density of 1 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "0.01",
+   "20",
+   "1000"
+  ],
+  "expected": "A 0.01 kg body in 20 L, in a 1000 kg/m\u00b3 fluid: 0% of its volume sits under the surface and 100% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "0.01",
+   "20",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 20 kg against the 0.01 kg body. That leaves 19.99 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "0.01",
+   "20",
+   "5000"
+  ],
+  "expected": "A 0.01 kg body in 20 L has a density of 1 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "0.01",
+   "20",
+   "5000"
+  ],
+  "expected": "A 0.01 kg body in 20 L, in a 5000 kg/m\u00b3 fluid: 0% of its volume sits under the surface and 100% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "0.01",
+   "20",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 100 kg against the 0.01 kg body. That leaves 99.99 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "0.01",
+   "999.99",
+   "1"
+  ],
+  "expected": "A 0.01 kg body in 999.99 L has a density of 0 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "0.01",
+   "999.99",
+   "1"
+  ],
+  "expected": "A 0.01 kg body in 999.99 L, in a 1 kg/m\u00b3 fluid: 1% of its volume sits under the surface and 99% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "0.01",
+   "999.99",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 1 kg against the 0.01 kg body. That leaves 0.99 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "0.01",
+   "999.99",
+   "1000"
+  ],
+  "expected": "A 0.01 kg body in 999.99 L has a density of 0 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "0.01",
+   "999.99",
+   "1000"
+  ],
+  "expected": "A 0.01 kg body in 999.99 L, in a 1000 kg/m\u00b3 fluid: 0% of its volume sits under the surface and 100% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "0.01",
+   "999.99",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 999.99 kg against the 0.01 kg body. That leaves 999.98 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "0.01",
+   "999.99",
+   "5000"
+  ],
+  "expected": "A 0.01 kg body in 999.99 L has a density of 0 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "0.01",
+   "999.99",
+   "5000"
+  ],
+  "expected": "A 0.01 kg body in 999.99 L, in a 5000 kg/m\u00b3 fluid: 0% of its volume sits under the surface and 100% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "0.01",
+   "999.99",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 4999.95 kg against the 0.01 kg body. That leaves 4999.94 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "0.01",
+   "100000",
+   "1"
+  ],
+  "expected": "A 0.01 kg body in 100000 L has a density of 0 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "0.01",
+   "100000",
+   "1"
+  ],
+  "expected": "A 0.01 kg body in 100000 L, in a 1 kg/m\u00b3 fluid: 0% of its volume sits under the surface and 100% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "0.01",
+   "100000",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 100 kg against the 0.01 kg body. That leaves 99.99 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "0.01",
+   "100000",
+   "1000"
+  ],
+  "expected": "A 0.01 kg body in 100000 L has a density of 0 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "0.01",
+   "100000",
+   "1000"
+  ],
+  "expected": "A 0.01 kg body in 100000 L, in a 1000 kg/m\u00b3 fluid: 0% of its volume sits under the surface and 100% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "0.01",
+   "100000",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 100000 kg against the 0.01 kg body. That leaves 99999.99 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "0.01",
+   "100000",
+   "5000"
+  ],
+  "expected": "A 0.01 kg body in 100000 L has a density of 0 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "0.01",
+   "100000",
+   "5000"
+  ],
+  "expected": "A 0.01 kg body in 100000 L, in a 5000 kg/m\u00b3 fluid: 0% of its volume sits under the surface and 100% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "0.01",
+   "100000",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 500000 kg against the 0.01 kg body. That leaves 499999.99 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "0.01",
+   "1"
+  ],
+  "expected": "A 12 kg body in 0.01 L has a density of 1200000 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "0.01",
+   "1"
+  ],
+  "expected": "A 12 kg body in 0.01 L, in a 1 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "0.01",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 0 kg against the 12 kg body. That is 12 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "0.01",
+   "1000"
+  ],
+  "expected": "A 12 kg body in 0.01 L has a density of 1200000 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "0.01",
+   "1000"
+  ],
+  "expected": "A 12 kg body in 0.01 L, in a 1000 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "0.01",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 0.01 kg against the 12 kg body. That is 11.99 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "0.01",
+   "5000"
+  ],
+  "expected": "A 12 kg body in 0.01 L has a density of 1200000 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "0.01",
+   "5000"
+  ],
+  "expected": "A 12 kg body in 0.01 L, in a 5000 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "0.01",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 0.05 kg against the 12 kg body. That is 11.95 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "20",
+   "1"
+  ],
+  "expected": "A 12 kg body in 20 L has a density of 600 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "20",
+   "1"
+  ],
+  "expected": "A 12 kg body in 20 L, in a 1 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "20",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 0.02 kg against the 12 kg body. That is 11.98 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "20",
+   "1000"
+  ],
+  "expected": "A 12 kg body in 20 L has a density of 600 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "20",
+   "1000"
+  ],
+  "expected": "A 12 kg body in 20 L, in a 1000 kg/m\u00b3 fluid: 60% of its volume sits under the surface and 40% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "20",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 20 kg against the 12 kg body. That leaves 8 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "20",
+   "5000"
+  ],
+  "expected": "A 12 kg body in 20 L has a density of 600 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "20",
+   "5000"
+  ],
+  "expected": "A 12 kg body in 20 L, in a 5000 kg/m\u00b3 fluid: 12% of its volume sits under the surface and 88% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "20",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 100 kg against the 12 kg body. That leaves 88 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "999.99",
+   "1"
+  ],
+  "expected": "A 12 kg body in 999.99 L has a density of 12 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "999.99",
+   "1"
+  ],
+  "expected": "A 12 kg body in 999.99 L, in a 1 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "999.99",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 1 kg against the 12 kg body. That is 11 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "999.99",
+   "1000"
+  ],
+  "expected": "A 12 kg body in 999.99 L has a density of 12 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "999.99",
+   "1000"
+  ],
+  "expected": "A 12 kg body in 999.99 L, in a 1000 kg/m\u00b3 fluid: 1% of its volume sits under the surface and 99% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "999.99",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 999.99 kg against the 12 kg body. That leaves 987.99 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "999.99",
+   "5000"
+  ],
+  "expected": "A 12 kg body in 999.99 L has a density of 12 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "999.99",
+   "5000"
+  ],
+  "expected": "A 12 kg body in 999.99 L, in a 5000 kg/m\u00b3 fluid: 0% of its volume sits under the surface and 100% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "999.99",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 4999.95 kg against the 12 kg body. That leaves 4987.95 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "100000",
+   "1"
+  ],
+  "expected": "A 12 kg body in 100000 L has a density of 0 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "100000",
+   "1"
+  ],
+  "expected": "A 12 kg body in 100000 L, in a 1 kg/m\u00b3 fluid: 12% of its volume sits under the surface and 88% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "100000",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 100 kg against the 12 kg body. That leaves 88 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "100000",
+   "1000"
+  ],
+  "expected": "A 12 kg body in 100000 L has a density of 0 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "100000",
+   "1000"
+  ],
+  "expected": "A 12 kg body in 100000 L, in a 1000 kg/m\u00b3 fluid: 0% of its volume sits under the surface and 100% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "100000",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 100000 kg against the 12 kg body. That leaves 99988 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "100000",
+   "5000"
+  ],
+  "expected": "A 12 kg body in 100000 L has a density of 0 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "100000",
+   "5000"
+  ],
+  "expected": "A 12 kg body in 100000 L, in a 5000 kg/m\u00b3 fluid: 0% of its volume sits under the surface and 100% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "100000",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 500000 kg against the 12 kg body. That leaves 499988 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "20",
+   "0.01",
+   "1"
+  ],
+  "expected": "A 20 kg body in 0.01 L has a density of 2000000 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "20",
+   "0.01",
+   "1"
+  ],
+  "expected": "A 20 kg body in 0.01 L, in a 1 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "20",
+   "0.01",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 0 kg against the 20 kg body. That is 20 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "20",
+   "0.01",
+   "1000"
+  ],
+  "expected": "A 20 kg body in 0.01 L has a density of 2000000 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "20",
+   "0.01",
+   "1000"
+  ],
+  "expected": "A 20 kg body in 0.01 L, in a 1000 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "20",
+   "0.01",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 0.01 kg against the 20 kg body. That is 19.99 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "20",
+   "0.01",
+   "5000"
+  ],
+  "expected": "A 20 kg body in 0.01 L has a density of 2000000 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "20",
+   "0.01",
+   "5000"
+  ],
+  "expected": "A 20 kg body in 0.01 L, in a 5000 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "20",
+   "0.01",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 0.05 kg against the 20 kg body. That is 19.95 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "20",
+   "20",
+   "1"
+  ],
+  "expected": "A 20 kg body in 20 L has a density of 1000 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "20",
+   "20",
+   "1"
+  ],
+  "expected": "A 20 kg body in 20 L, in a 1 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "20",
+   "20",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 0.02 kg against the 20 kg body. That is 19.98 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "20",
+   "20",
+   "1000"
+  ],
+  "expected": "A 20 kg body in 20 L has a density of 1000 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is exactly as dense as the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "20",
+   "20",
+   "1000"
+  ],
+  "expected": "A 20 kg body in 20 L, in a 1000 kg/m\u00b3 fluid: its density matches the fluid's, so it sits fully submerged, neither rising nor needing support."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "20",
+   "20",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 20 kg against the 20 kg body. That exactly matches its mass, so it sits awash with nothing to spare."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "20",
+   "20",
+   "5000"
+  ],
+  "expected": "A 20 kg body in 20 L has a density of 1000 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "20",
+   "20",
+   "5000"
+  ],
+  "expected": "A 20 kg body in 20 L, in a 5000 kg/m\u00b3 fluid: 20% of its volume sits under the surface and 80% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "20",
+   "20",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 100 kg against the 20 kg body. That leaves 80 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "20",
+   "999.99",
+   "1"
+  ],
+  "expected": "A 20 kg body in 999.99 L has a density of 20 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "20",
+   "999.99",
+   "1"
+  ],
+  "expected": "A 20 kg body in 999.99 L, in a 1 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "20",
+   "999.99",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 1 kg against the 20 kg body. That is 19 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "20",
+   "999.99",
+   "1000"
+  ],
+  "expected": "A 20 kg body in 999.99 L has a density of 20 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "20",
+   "999.99",
+   "1000"
+  ],
+  "expected": "A 20 kg body in 999.99 L, in a 1000 kg/m\u00b3 fluid: 2% of its volume sits under the surface and 98% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "20",
+   "999.99",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 999.99 kg against the 20 kg body. That leaves 979.99 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "20",
+   "999.99",
+   "5000"
+  ],
+  "expected": "A 20 kg body in 999.99 L has a density of 20 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "20",
+   "999.99",
+   "5000"
+  ],
+  "expected": "A 20 kg body in 999.99 L, in a 5000 kg/m\u00b3 fluid: 0% of its volume sits under the surface and 100% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "20",
+   "999.99",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 4999.95 kg against the 20 kg body. That leaves 4979.95 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "20",
+   "100000",
+   "1"
+  ],
+  "expected": "A 20 kg body in 100000 L has a density of 0 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "20",
+   "100000",
+   "1"
+  ],
+  "expected": "A 20 kg body in 100000 L, in a 1 kg/m\u00b3 fluid: 20% of its volume sits under the surface and 80% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "20",
+   "100000",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 100 kg against the 20 kg body. That leaves 80 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "20",
+   "100000",
+   "1000"
+  ],
+  "expected": "A 20 kg body in 100000 L has a density of 0 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "20",
+   "100000",
+   "1000"
+  ],
+  "expected": "A 20 kg body in 100000 L, in a 1000 kg/m\u00b3 fluid: 0% of its volume sits under the surface and 100% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "20",
+   "100000",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 100000 kg against the 20 kg body. That leaves 99980 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "20",
+   "100000",
+   "5000"
+  ],
+  "expected": "A 20 kg body in 100000 L has a density of 0 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "20",
+   "100000",
+   "5000"
+  ],
+  "expected": "A 20 kg body in 100000 L, in a 5000 kg/m\u00b3 fluid: 0% of its volume sits under the surface and 100% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "20",
+   "100000",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 500000 kg against the 20 kg body. That leaves 499980 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "250",
+   "0.01",
+   "1"
+  ],
+  "expected": "A 250 kg body in 0.01 L has a density of 25000000 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "250",
+   "0.01",
+   "1"
+  ],
+  "expected": "A 250 kg body in 0.01 L, in a 1 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "250",
+   "0.01",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 0 kg against the 250 kg body. That is 250 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "250",
+   "0.01",
+   "1000"
+  ],
+  "expected": "A 250 kg body in 0.01 L has a density of 25000000 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "250",
+   "0.01",
+   "1000"
+  ],
+  "expected": "A 250 kg body in 0.01 L, in a 1000 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "250",
+   "0.01",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 0.01 kg against the 250 kg body. That is 249.99 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "250",
+   "0.01",
+   "5000"
+  ],
+  "expected": "A 250 kg body in 0.01 L has a density of 25000000 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "250",
+   "0.01",
+   "5000"
+  ],
+  "expected": "A 250 kg body in 0.01 L, in a 5000 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "250",
+   "0.01",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 0.05 kg against the 250 kg body. That is 249.95 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "250",
+   "20",
+   "1"
+  ],
+  "expected": "A 250 kg body in 20 L has a density of 12500 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "250",
+   "20",
+   "1"
+  ],
+  "expected": "A 250 kg body in 20 L, in a 1 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "250",
+   "20",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 0.02 kg against the 250 kg body. That is 249.98 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "250",
+   "20",
+   "1000"
+  ],
+  "expected": "A 250 kg body in 20 L has a density of 12500 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "250",
+   "20",
+   "1000"
+  ],
+  "expected": "A 250 kg body in 20 L, in a 1000 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "250",
+   "20",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 20 kg against the 250 kg body. That is 230 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "250",
+   "20",
+   "5000"
+  ],
+  "expected": "A 250 kg body in 20 L has a density of 12500 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "250",
+   "20",
+   "5000"
+  ],
+  "expected": "A 250 kg body in 20 L, in a 5000 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "250",
+   "20",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 100 kg against the 250 kg body. That is 150 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "250",
+   "999.99",
+   "1"
+  ],
+  "expected": "A 250 kg body in 999.99 L has a density of 250 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "250",
+   "999.99",
+   "1"
+  ],
+  "expected": "A 250 kg body in 999.99 L, in a 1 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "250",
+   "999.99",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 1 kg against the 250 kg body. That is 249 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "250",
+   "999.99",
+   "1000"
+  ],
+  "expected": "A 250 kg body in 999.99 L has a density of 250 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "250",
+   "999.99",
+   "1000"
+  ],
+  "expected": "A 250 kg body in 999.99 L, in a 1000 kg/m\u00b3 fluid: 25% of its volume sits under the surface and 75% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "250",
+   "999.99",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 999.99 kg against the 250 kg body. That leaves 749.99 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "250",
+   "999.99",
+   "5000"
+  ],
+  "expected": "A 250 kg body in 999.99 L has a density of 250 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "250",
+   "999.99",
+   "5000"
+  ],
+  "expected": "A 250 kg body in 999.99 L, in a 5000 kg/m\u00b3 fluid: 5% of its volume sits under the surface and 95% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "250",
+   "999.99",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 4999.95 kg against the 250 kg body. That leaves 4749.95 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "250",
+   "100000",
+   "1"
+  ],
+  "expected": "A 250 kg body in 100000 L has a density of 3 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "250",
+   "100000",
+   "1"
+  ],
+  "expected": "A 250 kg body in 100000 L, in a 1 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "250",
+   "100000",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 100 kg against the 250 kg body. That is 150 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "250",
+   "100000",
+   "1000"
+  ],
+  "expected": "A 250 kg body in 100000 L has a density of 3 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "250",
+   "100000",
+   "1000"
+  ],
+  "expected": "A 250 kg body in 100000 L, in a 1000 kg/m\u00b3 fluid: 0% of its volume sits under the surface and 100% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "250",
+   "100000",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 100000 kg against the 250 kg body. That leaves 99750 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "250",
+   "100000",
+   "5000"
+  ],
+  "expected": "A 250 kg body in 100000 L has a density of 3 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "250",
+   "100000",
+   "5000"
+  ],
+  "expected": "A 250 kg body in 100000 L, in a 5000 kg/m\u00b3 fluid: 0% of its volume sits under the surface and 100% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "250",
+   "100000",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 500000 kg against the 250 kg body. That leaves 499750 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "100000",
+   "0.01",
+   "1"
+  ],
+  "expected": "A 100000 kg body in 0.01 L has a density of 10000000000 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "100000",
+   "0.01",
+   "1"
+  ],
+  "expected": "A 100000 kg body in 0.01 L, in a 1 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "100000",
+   "0.01",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 0 kg against the 100000 kg body. That is 100000 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "100000",
+   "0.01",
+   "1000"
+  ],
+  "expected": "A 100000 kg body in 0.01 L has a density of 10000000000 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "100000",
+   "0.01",
+   "1000"
+  ],
+  "expected": "A 100000 kg body in 0.01 L, in a 1000 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "100000",
+   "0.01",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 0.01 kg against the 100000 kg body. That is 99999.99 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "100000",
+   "0.01",
+   "5000"
+  ],
+  "expected": "A 100000 kg body in 0.01 L has a density of 10000000000 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "100000",
+   "0.01",
+   "5000"
+  ],
+  "expected": "A 100000 kg body in 0.01 L, in a 5000 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "100000",
+   "0.01",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 0.05 kg against the 100000 kg body. That is 99999.95 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "100000",
+   "20",
+   "1"
+  ],
+  "expected": "A 100000 kg body in 20 L has a density of 5000000 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "100000",
+   "20",
+   "1"
+  ],
+  "expected": "A 100000 kg body in 20 L, in a 1 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "100000",
+   "20",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 0.02 kg against the 100000 kg body. That is 99999.98 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "100000",
+   "20",
+   "1000"
+  ],
+  "expected": "A 100000 kg body in 20 L has a density of 5000000 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "100000",
+   "20",
+   "1000"
+  ],
+  "expected": "A 100000 kg body in 20 L, in a 1000 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "100000",
+   "20",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 20 kg against the 100000 kg body. That is 99980 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "100000",
+   "20",
+   "5000"
+  ],
+  "expected": "A 100000 kg body in 20 L has a density of 5000000 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "100000",
+   "20",
+   "5000"
+  ],
+  "expected": "A 100000 kg body in 20 L, in a 5000 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "100000",
+   "20",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 100 kg against the 100000 kg body. That is 99900 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "100000",
+   "999.99",
+   "1"
+  ],
+  "expected": "A 100000 kg body in 999.99 L has a density of 100001 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "100000",
+   "999.99",
+   "1"
+  ],
+  "expected": "A 100000 kg body in 999.99 L, in a 1 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "100000",
+   "999.99",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 1 kg against the 100000 kg body. That is 99999 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "100000",
+   "999.99",
+   "1000"
+  ],
+  "expected": "A 100000 kg body in 999.99 L has a density of 100001 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "100000",
+   "999.99",
+   "1000"
+  ],
+  "expected": "A 100000 kg body in 999.99 L, in a 1000 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "100000",
+   "999.99",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 999.99 kg against the 100000 kg body. That is 99000.01 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "100000",
+   "999.99",
+   "5000"
+  ],
+  "expected": "A 100000 kg body in 999.99 L has a density of 100001 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "100000",
+   "999.99",
+   "5000"
+  ],
+  "expected": "A 100000 kg body in 999.99 L, in a 5000 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "100000",
+   "999.99",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 4999.95 kg against the 100000 kg body. That is 95000.05 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "100000",
+   "100000",
+   "1"
+  ],
+  "expected": "A 100000 kg body in 100000 L has a density of 1000 kg/m\u00b3. The fluid is 1 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "100000",
+   "100000",
+   "1"
+  ],
+  "expected": "A 100000 kg body in 100000 L, in a 1 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "100000",
+   "100000",
+   "1"
+  ],
+  "expected": "Fully under, the 1 kg/m\u00b3 fluid buoys 100 kg against the 100000 kg body. That is 99900 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "100000",
+   "100000",
+   "1000"
+  ],
+  "expected": "A 100000 kg body in 100000 L has a density of 1000 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is exactly as dense as the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "100000",
+   "100000",
+   "1000"
+  ],
+  "expected": "A 100000 kg body in 100000 L, in a 1000 kg/m\u00b3 fluid: its density matches the fluid's, so it sits fully submerged, neither rising nor needing support."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "100000",
+   "100000",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 100000 kg against the 100000 kg body. That exactly matches its mass, so it sits awash with nothing to spare."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "100000",
+   "100000",
+   "5000"
+  ],
+  "expected": "A 100000 kg body in 100000 L has a density of 1000 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is less dense than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "100000",
+   "100000",
+   "5000"
+  ],
+  "expected": "A 100000 kg body in 100000 L, in a 5000 kg/m\u00b3 fluid: 20% of its volume sits under the surface and 80% above it."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "100000",
+   "100000",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 500000 kg against the 100000 kg body. That leaves 400000 kg of spare lift before it sits awash."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "100000",
+   "0.01",
+   "5000"
+  ],
+  "expected": "A 100000 kg body in 0.01 L has a density of 10000000000 kg/m\u00b3. The fluid is 5000 kg/m\u00b3, so the body is denser than the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "100000",
+   "0.01",
+   "5000"
+  ],
+  "expected": "A 100000 kg body in 0.01 L, in a 5000 kg/m\u00b3 fluid: it is denser than the fluid, so the fluid alone does not hold it up."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "100000",
+   "0.01",
+   "5000"
+  ],
+  "expected": "Fully under, the 5000 kg/m\u00b3 fluid buoys 0.05 kg against the 100000 kg body. That is 99999.95 kg short of holding it up."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "20",
+   "20",
+   "1000"
+  ],
+  "expected": "A 20 kg body in 20 L has a density of 1000 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is exactly as dense as the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "20",
+   "20",
+   "1000"
+  ],
+  "expected": "A 20 kg body in 20 L, in a 1000 kg/m\u00b3 fluid: its density matches the fluid's, so it sits fully submerged, neither rising nor needing support."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "20",
+   "20",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 20 kg against the 20 kg body. That exactly matches its mass, so it sits awash with nothing to spare."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "20",
+   "600"
+  ],
+  "expected": "A 12 kg body in 20 L has a density of 600 kg/m\u00b3. The fluid is 600 kg/m\u00b3, so the body is exactly as dense as the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "20",
+   "600"
+  ],
+  "expected": "A 12 kg body in 20 L, in a 600 kg/m\u00b3 fluid: its density matches the fluid's, so it sits fully submerged, neither rising nor needing support."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "20",
+   "600"
+  ],
+  "expected": "Fully under, the 600 kg/m\u00b3 fluid buoys 12 kg against the 12 kg body. That exactly matches its mass, so it sits awash with nothing to spare."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "1",
+   "1",
+   "1000"
+  ],
+  "expected": "A 1 kg body in 1 L has a density of 1000 kg/m\u00b3. The fluid is 1000 kg/m\u00b3, so the body is exactly as dense as the fluid."
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "1",
+   "1",
+   "1000"
+  ],
+  "expected": "A 1 kg body in 1 L, in a 1000 kg/m\u00b3 fluid: its density matches the fluid's, so it sits fully submerged, neither rising nor needing support."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "1",
+   "1",
+   "1000"
+  ],
+  "expected": "Fully under, the 1000 kg/m\u00b3 fluid buoys 1 kg against the 1 kg body. That exactly matches its mass, so it sits awash with nothing to spare."
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "0",
+   "20",
+   "1000"
+  ],
+  "expected": "ERR:the mass must be from 0.01 to 100000 kg with at most two decimal places"
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "0",
+   "20",
+   "1000"
+  ],
+  "expected": "ERR:the mass must be from 0.01 to 100000 kg with at most two decimal places"
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "0",
+   "20",
+   "1000"
+  ],
+  "expected": "ERR:the mass must be from 0.01 to 100000 kg with at most two decimal places"
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "100001",
+   "20",
+   "1000"
+  ],
+  "expected": "ERR:the mass must be from 0.01 to 100000 kg with at most two decimal places"
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "100001",
+   "20",
+   "1000"
+  ],
+  "expected": "ERR:the mass must be from 0.01 to 100000 kg with at most two decimal places"
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "100001",
+   "20",
+   "1000"
+  ],
+  "expected": "ERR:the mass must be from 0.01 to 100000 kg with at most two decimal places"
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "0",
+   "1000"
+  ],
+  "expected": "ERR:the volume must be from 0.01 to 100000 L with at most two decimal places"
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "0",
+   "1000"
+  ],
+  "expected": "ERR:the volume must be from 0.01 to 100000 L with at most two decimal places"
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "0",
+   "1000"
+  ],
+  "expected": "ERR:the volume must be from 0.01 to 100000 L with at most two decimal places"
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "100001",
+   "1000"
+  ],
+  "expected": "ERR:the volume must be from 0.01 to 100000 L with at most two decimal places"
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "100001",
+   "1000"
+  ],
+  "expected": "ERR:the volume must be from 0.01 to 100000 L with at most two decimal places"
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "100001",
+   "1000"
+  ],
+  "expected": "ERR:the volume must be from 0.01 to 100000 L with at most two decimal places"
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "20",
+   "0"
+  ],
+  "expected": "ERR:the fluid density must be a whole number from 1 to 5000 kg/m\u00b3"
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "20",
+   "0"
+  ],
+  "expected": "ERR:the fluid density must be a whole number from 1 to 5000 kg/m\u00b3"
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "20",
+   "0"
+  ],
+  "expected": "ERR:the fluid density must be a whole number from 1 to 5000 kg/m\u00b3"
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "20",
+   "5001"
+  ],
+  "expected": "ERR:the fluid density must be a whole number from 1 to 5000 kg/m\u00b3"
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "20",
+   "5001"
+  ],
+  "expected": "ERR:the fluid density must be a whole number from 1 to 5000 kg/m\u00b3"
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "20",
+   "5001"
+  ],
+  "expected": "ERR:the fluid density must be a whole number from 1 to 5000 kg/m\u00b3"
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "20",
+   "10.5"
+  ],
+  "expected": "ERR:the fluid density must be a whole number from 1 to 5000 kg/m\u00b3"
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "20",
+   "10.5"
+  ],
+  "expected": "ERR:the fluid density must be a whole number from 1 to 5000 kg/m\u00b3"
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "20",
+   "10.5"
+  ],
+  "expected": "ERR:the fluid density must be a whole number from 1 to 5000 kg/m\u00b3"
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "1.234",
+   "20",
+   "1000"
+  ],
+  "expected": "ERR:the mass must be from 0.01 to 100000 kg with at most two decimal places"
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "1.234",
+   "20",
+   "1000"
+  ],
+  "expected": "ERR:the mass must be from 0.01 to 100000 kg with at most two decimal places"
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "1.234",
+   "20",
+   "1000"
+  ],
+  "expected": "ERR:the mass must be from 0.01 to 100000 kg with at most two decimal places"
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "abc",
+   "20",
+   "1000"
+  ],
+  "expected": "ERR:the mass must be from 0.01 to 100000 kg with at most two decimal places"
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "abc",
+   "20",
+   "1000"
+  ],
+  "expected": "ERR:the mass must be from 0.01 to 100000 kg with at most two decimal places"
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "abc",
+   "20",
+   "1000"
+  ],
+  "expected": "ERR:the mass must be from 0.01 to 100000 kg with at most two decimal places"
+ },
+ {
+  "fn": "densityTruth",
+  "args": [
+   "12",
+   "",
+   "1000"
+  ],
+  "expected": "ERR:the volume must be from 0.01 to 100000 L with at most two decimal places"
+ },
+ {
+  "fn": "draftTruth",
+  "args": [
+   "12",
+   "",
+   "1000"
+  ],
+  "expected": "ERR:the volume must be from 0.01 to 100000 L with at most two decimal places"
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   "12",
+   "",
+   "1000"
+  ],
+  "expected": "ERR:the volume must be from 0.01 to 100000 L with at most two decimal places"
+ }
+]
